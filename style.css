@@ -1,0 +1,74 @@
+body {
+
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Horizontal-Bar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+
+    .Horizontal-Bar a {
+        
+        color: whitesmoke;
+        font-size: 17px;  
+        float: right;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+    }
+    
+
+    .Horizontal-Bar a:hover {
+        color: black;
+        background-color: cyan;
+        
+    }
+    
+
+    .Horizontal-Bar a.active {
+        color: white;
+        background-color: crimson;
+        
+    }
+
+    .orange-color{
+
+        color: orange;
+    }
+
+    .half-width{
+
+        width: 40%;
+        float: left;
+        margin-left: 2%;
+        padding-left: 2%;
+    }
+
+    .half-width img{
+
+        width: 75%;
+    }
+    .topbanner{
+        background-image: url("images/top-banner.png");
+        background-repeat: no-repeat;
+    }
+
+    section {
+        height: 500px;
+    }
+    h1{
+        font-size: 50px;
+    }
+
+    .link-button {
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightsalmon, tomato);
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font font-weight: 1000;
+    }
